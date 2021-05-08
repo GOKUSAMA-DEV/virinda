@@ -100,21 +100,17 @@
 }
 
 .joker .right-joker p{
-  height: 100%;
+  height: auto;
   width: 100%;
   font-size: 1.5rem;
-  margin: auto;
-  padding: 20px 15px 0 15px;
-  text-align: center;
+  padding: 5%;
 }
 
 .comment-box{
   height: auto;
   width: 100%;
-  margin-top: 5%;
   display: flex;
   flex-direction: column;
-  background-color: burlywood;
 }
  
 .thoughts{
@@ -148,7 +144,7 @@
   font-size: 1.2rem;
   display: flex;
   text-align: center;
-  border: none;
+  border: 2px solid black;
   margin: auto;
   margin-top: 0.5%;
   border-radius: 5px;
@@ -161,8 +157,20 @@
   padding: 7px;
   border-radius: 5px;
   font-size: 1rem;
+  outline: none;
+  color: aliceblue;
+  border-color: white;
+  background-color: black;
   font-weight: 500;
   margin-bottom: 2%;
+}
+
+.form button:hover{
+  color: black;
+  background-color: white;
+  cursor: pointer;
+  border-color: black;
+  font-weight: 700;
 }
 
 .comment-display{
@@ -349,9 +357,30 @@
  .checkout_box .checkout_items .ItemsName, .price_checkout{
    font-size: 1rem;
  }
-
  .checkout_box h4{
    line-height: 25px;
+ }
+ .comment-box .form input{
+   font-size: 0.9rem;
+   margin-top: 2%;
+ }
+ .comment-box .form button{
+   font-size: 0.8rem;
+   border: none;
+   margin-top: 2%;
+ }
+ .comment-box .thoughts{
+   font-size: 2rem;
+ }
+ .comment-box .comment-display{
+   padding: 0 0 0 5% ;
+ }
+ .joker .left-joker img{
+   height: auto;
+   width: 90%;
+ }
+ .joker .right-joker p{
+   font-size: 1.2rem;
  }
 }
 
@@ -451,4 +480,5 @@
 
 .footer_last a{
   font-size: 2rem;
+  outline: orange;
 }

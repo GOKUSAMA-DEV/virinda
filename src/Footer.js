@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import HomeIcon from '@material-ui/icons/Home';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import InstagramIcon from '@material-ui/icons/Instagram';
+import YouTubeIcon from '@material-ui/icons/YouTube';
 import FacebookIcon from '@material-ui/icons/Facebook';
 
 
@@ -36,10 +37,10 @@ const Footer = () => {
                 <Link>Blog</Link>
                  <br></br>   
                 <h1>Follow Us</h1>
-                <a href="https://www.youtube.com/results?search_query=how+to+link+facebook+in+react+js+project"><TwitterIcon style={look} /></a>
-                <a href="https://www.youtube.com/results?search_query=how+to+link+facebook+in+react+js+project"><InstagramIcon style={look} /></a>
-                <a href="https://www.youtube.com/results?search_query=how+to+link+facebook+in+react+js+project"><FacebookIcon style={look} /></a>
-                <a href="https://www.youtube.com/results?search_query=how+to+link+facebook+in+react+js+project"><HomeIcon style={look} /></a>
+                <a href="https://twitter.com/gauravsahu394"><TwitterIcon style={look} /></a>
+                <a href="https://www.instagram.com/i.am.gaurav.sahu/"><InstagramIcon style={look} /></a>
+                <a href="https://www.facebook.com/gourav.shau/"><FacebookIcon style={look} /></a>
+                <a href="https://www.youtube.com/channel/UCzYyFi-DXnpuQrz_wOZKF4w"><YouTubeIcon style={look} /></a>
             </div>  
         </div>
     </>

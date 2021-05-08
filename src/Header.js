@@ -10,7 +10,7 @@ const Header = () => {
             VRINIDA <span className="sub">New Generation</span>
         </h1>
         <p></p>
-        <Link to="/"><HomeIcon style={{ fontSize: 50, color: "black", marginTop: -5 }} /></Link> 
+        <Link to="/"><HomeIcon style={{ fontSize: 50, color: "black", marginTop: -5, textAlign: "center" }} /></Link> 
       </div>
     </>
   )

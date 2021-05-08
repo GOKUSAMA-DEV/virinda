@@ -34,7 +34,7 @@ const Joker = () => {
       </div>
       <div className="comment-box">
         <h1 className="thoughts">Your Thoughts</h1>
-        <div className="content-box">
+        
           <div className="form">
             <input type="text" placeholder="please enter your thoughts" onChange={itemEvent} />              
             <button onClick={addComment}>Thoughts</button>
@@ -47,7 +47,7 @@ const Joker = () => {
               }
             </ol>
           </div>
-        </div>
+        
       </div>
     </>
   )

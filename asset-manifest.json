@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/virinda/static/css/main.f712ae26.chunk.css",
+    "main.js": "/virinda/static/js/main.fc2361bd.chunk.js",
+    "main.js.map": "/virinda/static/js/main.fc2361bd.chunk.js.map",
+    "runtime-main.js": "/virinda/static/js/runtime-main.51187e46.js",
+    "runtime-main.js.map": "/virinda/static/js/runtime-main.51187e46.js.map",
+    "static/js/2.533b9706.chunk.js": "/virinda/static/js/2.533b9706.chunk.js",
+    "static/js/2.533b9706.chunk.js.map": "/virinda/static/js/2.533b9706.chunk.js.map",
+    "index.html": "/virinda/index.html",
+    "static/css/main.f712ae26.chunk.css.map": "/virinda/static/css/main.f712ae26.chunk.css.map",
+    "static/js/2.533b9706.chunk.js.LICENSE.txt": "/virinda/static/js/2.533b9706.chunk.js.LICENSE.txt",
+    "static/media/A.ef34fffa.jpg": "/virinda/static/media/A.ef34fffa.jpg",
+    "static/media/B.0d2b7372.jpg": "/virinda/static/media/B.0d2b7372.jpg",
+    "static/media/C.1655b2fa.jpg": "/virinda/static/media/C.1655b2fa.jpg",
+    "static/media/D.bd23ed72.jpg": "/virinda/static/media/D.bd23ed72.jpg",
+    "static/media/paint.f3b08bac.jpg": "/virinda/static/media/paint.f3b08bac.jpg",
+    "static/media/recipe.2c925075.jpg": "/virinda/static/media/recipe.2c925075.jpg",
+    "static/media/restaurants.548814c5.jpg": "/virinda/static/media/restaurants.548814c5.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.51187e46.js",
+    "static/js/2.533b9706.chunk.js",
+    "static/css/main.f712ae26.chunk.css",
+    "static/js/main.fc2361bd.chunk.js"
+  ]
+}

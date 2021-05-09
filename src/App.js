@@ -6,6 +6,7 @@ import Recipes from "./Recipes";
 import Painting from "./Painting";
 import Joker from "./Joker";
 import Footer from "./Footer";
+import Blog from "./Blog";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route exact path="/recipes" component={Recipes}></Route>
         <Route exact path="/painting" component={Painting}></Route>
         <Route exact path="/painting/joker" component={Joker}></Route>
+        <Route exact path="/blog" component={Blog}></Route>
       </Switch>
       <Footer/>
     </>

@@ -34,7 +34,7 @@ const Footer = () => {
             <div className="footer_last">
                 <Link>Contact Us</Link>
                 <br></br>
-                <Link>Blog</Link>
+                <Link to="/blog">Blog</Link>
                  <br></br>   
                 <h1>Follow Us</h1>
                 <a href="https://twitter.com/gauravsahu394"><TwitterIcon style={look} /></a>

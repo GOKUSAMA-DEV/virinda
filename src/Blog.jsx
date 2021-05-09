@@ -28,8 +28,8 @@ const Blog = (props) => {
         <p><b>Noida</b></p>
         <p>I have 2 years experience in Magic Software in UI based project.</p>
       </div>
-      {/* <div className="blog-front"><img src={A} /></div> */}
       </div>
+      <div className="blog-front"><img src={A} /></div>
       </div>
     </>
   )

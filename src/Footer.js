@@ -29,7 +29,7 @@ const Footer = () => {
                 <h1>How Was Your Experience</h1>
                 <p>Please Share Your Feedback</p>
                 <br></br>
-                <Link>Send</Link>
+                <a href="mailto:gouravsahu394@gmail.com">Send</a>
             </div>
             <div className="footer_last">
                 <Link>Contact Us</Link>

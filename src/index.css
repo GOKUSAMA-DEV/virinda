@@ -3,6 +3,9 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+a{
+  color: black;
+}
 
 .header{
   height: 20%;
@@ -274,11 +277,137 @@
 }
 
 
+
+
+.checkout_items{
+  height: auto;
+  width: 100;
+  display: flex;
+  justify-content: space-between;
+  padding: 2.5%;
+  font-size: 1.5rem;
+}
+
+.itemname_checkout{
+  line-height: 1px;
+}
+
+.price_checkout{
+  line-height: 1px;
+}
+
+.ItemsName{
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.price{
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+
+
+.parent_footer{
+  height: auto;
+  width: 100%;
+  background-color: lightskyblue;
+  display: inline-flex;
+  margin-top: 5%;
+}
+
+
+
+.footer_title{
+  font-size: 2rem;
+  padding: 2%;
+  /*   */
+}
+
+.footer_mid{
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  align-items: center;
+  line-height: 30px;
+  height: auto;
+  width: 60%;
+  text-align: center;
+  /* border-right: 2px solid slategrey; */
+}
+
+.footer_mid h1{
+  font-size: 2.2rem;
+}
+
+.footer_mid p{
+  font-size: 1.2rem;
+  padding: 2%;
+}
+
+.footer_mid a{
+  font-size: 2rem;
+  padding: 1%;
+  margin-top: -3%;
+  color: white;
+  border: 4px solid white;
+  border-radius: 5px;
+  background-color: black;
+}
+
+.footer_mid a:hover{
+  color: black;
+  background-color: white;
+  border-color: black;
+}
+
+.footer_last{
+  height: auto;
+  width: auto;
+  display: block;
+  justify-content: center;
+  line-height: 40px;
+  padding: 1%;
+}
+
+
+
+.footer_last a{
+  font-size: 2rem;
+  outline: orange;
+}
+
+.blog{
+  height: auto;
+  width: 95%;
+  margin: auto;
+}
+
+.blog-title{
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 0.2%;
+}
+.blog-front{
+  height: auto;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+}
+.blog-front img{
+  height: auto;
+  width: 90%;
+  /* filter: blur(2px); */
+  margin-top: 1%;
+}
 @media (max-width: 767px) {
   .header{
     height: 10%;
     width: auto;
-    background-color: powderblue;
+    background-color: pink;
   }
   .title{
     font-size: 2rem;
@@ -387,104 +516,55 @@
  .joker .right-joker p{
    font-size: 1.2rem;
  }
-}
-
-.checkout_items{
-  height: auto;
-  width: 100;
-  display: flex;
-  justify-content: space-between;
-  padding: 2.5%;
-  font-size: 1.5rem;
-}
-
-.itemname_checkout{
-  line-height: 1px;
-}
-
-.price_checkout{
-  line-height: 1px;
-}
-
-.ItemsName{
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 1.2rem;
-}
-
-.price{
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 1.8rem;
-}
-
-
-
-.parent_footer{
-  height: auto;
-  width: 100%;
-  background-color: lightskyblue;
-  display: inline-flex;
-  margin-top: 5%;
-}
-
-
-
-.footer_title{
-  font-size: 2rem;
-  padding: 2%;
-  /*   */
-}
-
-.footer_mid{
-  display: flex;
-  flex-direction: column;
-  padding: 2%;
-  align-items: center;
-  line-height: 30px;
-  height: auto;
-  width: 60%;
+ .education-main{
+   flex-direction: column;
+   justify-content: center;
+ }
+ .education-main .journey{
+   height: auto;
+   width: 70%;
+   
+   margin: auto;
+   margin-top: 5%;
+   margin-bottom: 2%;
+ }
+ .education-main .journey p{
+   font-size: 1rem;
+ }
+ .blog h1{
   text-align: center;
-  /* border-right: 2px solid slategrey; */
+  line-height: 45px;
 }
-
-.footer_mid h1{
-  font-size: 2.2rem;
 }
-
-.footer_mid p{
-  font-size: 1.2rem;
-  padding: 2%;
-}
-
-.footer_mid a{
-  font-size: 2rem;
-  padding: 1%;
-  margin-top: -3%;
-  color: white;
-  border: 4px solid white;
-  border-radius: 5px;
-  background-color: black;
-}
-
-.footer_mid a:hover{
-  color: black;
-  background-color: white;
-  border-color: black;
-}
-
-.footer_last{
+.education-main{
   height: auto;
   width: auto;
-  display: block;
-  justify-content: center;
-  line-height: 40px;
-  padding: 1%;
+  display: flex;
 }
 
+.journey{
+  height: auto;
+  width: 30%;
+  background-color: powderblue;
+  box-shadow: 5px 5px 18px grey;;
+  padding: 3%;
+  margin-left: 2%;
+  margin-top: 1%;
+  line-height: 30px;
+  text-align: center;
+  transition: transform 1s;
+}
 
+.journey:hover{
+  transform: translate(20px, 20px);
+  cursor: pointer;
+}
 
-.footer_last a{
-  font-size: 2rem;
-  outline: orange;
+.journey p{
+  color: black;
+  font-size: 1.2rem
+}
+
+.year{
+  text-decoration: underline;
 }

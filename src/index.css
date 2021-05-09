@@ -473,12 +473,15 @@ a{
   }
   .parent_footer .footer_mid{
     width: 40%;
+    margin-left: 5%;
   }
   .parent_footer .footer_last a{
     font-size: 1.5rem;
+    margin-left: 0%;
   }
-  .parent_footer .footer_last h1{
-    font-size: 1.5rem;
+  .parent_footer .follow-us {
+    margin: 1% 0 1% 0;
+    margin-left: -17%;
   }
   .recipe_title h1 {
     font-size: 2.5rem;

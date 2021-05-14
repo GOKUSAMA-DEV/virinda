@@ -20,6 +20,7 @@ const sum = cart.reduce((a, c) => a + c.price,0);
           ))}
           <br></br>
           <h2>TOTAL PRICE = <span>&#8377;</span> {cart.entity}{sum}</h2>
+          
         </div>        
         </>
     )

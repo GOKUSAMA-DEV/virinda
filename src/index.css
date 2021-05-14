@@ -19,13 +19,10 @@ a{
   padding-top: 2%;
 }
 
-
-.sub{
-  vertical-align: sub;
-  font-size: 1.5rem;
-  font-style: italic;
+.sub-title{
+  font-size: 2rem;
+  text-align: center;
 }
-
 /* .header a{
   font-size: 3rem;
 } */
@@ -199,7 +196,7 @@ a{
 }
 
 .recipe_title{
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-align: center;
   margin-top: 2%;
   text-decoration: underline;
@@ -215,7 +212,7 @@ a{
 
 .title_image .restaurant_image{
   height: auto;
-  width: 40%;
+  width: 90%;
 }
 
 
@@ -414,10 +411,28 @@ a{
 }
 .blog-front img{
   height: auto;
-  width: 90%;
+  width: 92%;
   /* filter: blur(2px); */
   margin-top: 1%;
 }
+
+.gallery{
+  height: auto;
+  width: auto;
+  margin: auto;
+  position: absolute;
+  
+  top: 120%;
+}
+.gallery a{
+  font-size: 3rem;
+  color: transparent;
+}
+
+.gallery a:hover{
+  color: black;
+}
+
 @media (max-width: 767px) {
   .header{
     height: 10%;
@@ -426,6 +441,9 @@ a{
   }
   .title{
     font-size: 2rem;
+  }
+  .sub-title{
+    font-size: 1rem;
   }
   .header a{
     font-size: 1rem;
@@ -570,12 +588,15 @@ a{
   margin-left: 2%;
   margin-top: 1%;
   line-height: 30px;
+  transition: ease-in-out 0.3s;
+}
+
+.journey h2{
   text-align: center;
-  transition: transform 1s;
 }
 
 .journey:hover{
-  transform: translate(20px, 20px);
+  transform: scale(1.1);
   cursor: pointer;
 }
 
@@ -586,4 +607,7 @@ a{
 
 .year{
   text-decoration: underline;
+}
+.gallery-title{
+  text-align: center;
 }

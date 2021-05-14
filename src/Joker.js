@@ -5,15 +5,22 @@ const Joker = () => {
   const [inputList, setInputList] = useState("");
   const [item, setItems] = useState([]);
   
-  
-
   const itemEvent = (e) =>{
     setInputList(e.target.value)
+   
   }
-  const addComment = () => {
-    setItems((oldItems) =>{
-      return [...oldItems, inputList]
-    })
+  const addComment = (e) => {
+    e.preventDefault();
+    if (!inputList) {
+      alert("entery your thoughts");
+      console.log("entery your thoughts");
+    }
+    else{
+      setItems((oldItems) =>{
+        return [...oldItems, inputList]
+      })
+    }
+    
   }
 
   return (
@@ -36,7 +43,8 @@ const Joker = () => {
         <h1 className="thoughts">Your Thoughts</h1>
         
           <div className="form">
-            <input type="text" placeholder="please enter your thoughts" onChange={itemEvent} />              
+            <form>
+            <input type="text" placeholder="please enter your thoughts" onChange={itemEvent} required />              
             <button onClick={addComment}>Thoughts</button>
             <ol className="comment-display">
               {/* <li>{inputList}</li> */}
@@ -46,6 +54,7 @@ const Joker = () => {
                 })
               }
             </ol>
+            </form>
           </div>
         
       </div>

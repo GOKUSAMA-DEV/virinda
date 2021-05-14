@@ -7,9 +7,9 @@ const Header = () => {
     <>
       <div className="header">
         <h1 className="title">
-            VRINIDA <span className="sub">New Generation</span>
+            VRINIDA
         </h1>
-        <p></p>
+        <p className="sub-title">New Generation</p>
         <Link to="/"><HomeIcon style={{ fontSize: 50, color: "black", marginTop: -5, textAlign: "center" }} /></Link> 
       </div>
     </>

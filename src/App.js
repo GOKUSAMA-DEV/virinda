@@ -7,6 +7,9 @@ import Painting from "./Painting";
 import Joker from "./Joker";
 import Footer from "./Footer";
 import Blog from "./Blog";
+import Gallery from "./Gallery";
+import Cart from "./Cart";
+import Total from "./Total";
 
 const App = () => {
   return (
@@ -18,6 +21,8 @@ const App = () => {
         <Route exact path="/painting" component={Painting}></Route>
         <Route exact path="/painting/joker" component={Joker}></Route>
         <Route exact path="/blog" component={Blog}></Route>
+        <Route exact path="/recipes/total" component={Total}></Route>
+        <Route exact path="/blog/gallery" component={Gallery}></Route>
       </Switch>
       <Footer/>
     </>

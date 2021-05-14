@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/virinda/static/css/main.af4ad5b4.chunk.css",
-    "main.js": "/virinda/static/js/main.cd0693af.chunk.js",
-    "main.js.map": "/virinda/static/js/main.cd0693af.chunk.js.map",
+    "main.css": "/virinda/static/css/main.84c221c0.chunk.css",
+    "main.js": "/virinda/static/js/main.52db7910.chunk.js",
+    "main.js.map": "/virinda/static/js/main.52db7910.chunk.js.map",
     "runtime-main.js": "/virinda/static/js/runtime-main.51187e46.js",
     "runtime-main.js.map": "/virinda/static/js/runtime-main.51187e46.js.map",
-    "static/js/2.4fc2b9eb.chunk.js": "/virinda/static/js/2.4fc2b9eb.chunk.js",
-    "static/js/2.4fc2b9eb.chunk.js.map": "/virinda/static/js/2.4fc2b9eb.chunk.js.map",
+    "static/js/2.0e610aae.chunk.js": "/virinda/static/js/2.0e610aae.chunk.js",
+    "static/js/2.0e610aae.chunk.js.map": "/virinda/static/js/2.0e610aae.chunk.js.map",
     "index.html": "/virinda/index.html",
-    "static/css/main.af4ad5b4.chunk.css.map": "/virinda/static/css/main.af4ad5b4.chunk.css.map",
-    "static/js/2.4fc2b9eb.chunk.js.LICENSE.txt": "/virinda/static/js/2.4fc2b9eb.chunk.js.LICENSE.txt",
+    "static/css/main.84c221c0.chunk.css.map": "/virinda/static/css/main.84c221c0.chunk.css.map",
+    "static/js/2.0e610aae.chunk.js.LICENSE.txt": "/virinda/static/js/2.0e610aae.chunk.js.LICENSE.txt",
     "static/media/A.a425ac54.jpg": "/virinda/static/media/A.a425ac54.jpg",
     "static/media/A.ef34fffa.jpg": "/virinda/static/media/A.ef34fffa.jpg",
     "static/media/B.0d2b7372.jpg": "/virinda/static/media/B.0d2b7372.jpg",
@@ -21,8 +21,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.51187e46.js",
-    "static/js/2.4fc2b9eb.chunk.js",
-    "static/css/main.af4ad5b4.chunk.css",
-    "static/js/main.cd0693af.chunk.js"
+    "static/js/2.0e610aae.chunk.js",
+    "static/css/main.84c221c0.chunk.css",
+    "static/js/main.52db7910.chunk.js"
   ]
 }

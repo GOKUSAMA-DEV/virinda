@@ -4,7 +4,6 @@ import FastfoodIcon from '@material-ui/icons/Fastfood';
 import YourMenu from "./YourMenu";
 import MainMenu from "./MainMenu";
 import Bread from "./Bread";
-import Total from "./Total";
 import Cart from "./Cart";
 
 import { makeStyles } from "@material-ui/core/styles";
